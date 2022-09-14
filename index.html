@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siddharth fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@600&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Bebas Neue', cursive;
+
+        margin: 0px;
+        padding: 0px;
+        background: url("img/gym.jpg");
+
+
+        color: white;
+    }
+
+    .left {
+        position: absolute;
+        border-radius: 4px solid black;
+        left: 34px;
+        top: 15px;
+        display: inline-block;
+    
+
+
+    }
+
+    .left img {
+        width: 65px;
+        border-radius: 40px;
+
+    }
+
+    .logo {
+        top: 23px;
+        float: right;
+        margin-top: 15px;
+        margin-left: 7px;
+        margin-right: 7px;
+        font-size: 25px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 10px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 7px;
+        top: 15px;
+        display: inline-block;
+
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+
+    .nevbar {
+        display: inline-block;
+    }
+
+    .nevbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .nevbar li a {
+        top: 1px;
+        color: white;
+        text-decoration: none;
+        padding: 22px 32px;
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Bebas Neue', cursive;
+
+
+    }
+
+    .nevbar li a:hover {
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Bebas Neue', cursive;
+
+        color: gray;
+        text-decoration: underline;
+        padding: 22px 32px;
+
+    }
+
+    .active {
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+    .btn {
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Bebas Neue', cursive;
+        margin: -1px auto;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 4px 32px;
+        border: 2px solid gray;
+        border-radius: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        text-align: center;
+        border: 3px solid white;
+        border-radius: 50px;
+        margin: 189px 243px;
+        padding: 38px;
+        border-radius: 29px;
+        width: 30%;
+        height: 342px;
+    }
+
+
+    .form-group input {
+        border-radius: 30px;
+        font-size: 23px;
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 11px;
+        border: 2px solid black;
+        margin: 13px auto;
+    }
+
+    h3 {
+        display: block;
+        font-size: 28px;
+        margin-block-start: -8px;
+        margin-block-end: 12px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="" id="img">
+            <div class="logo">&nbsp;harry gym&nbsp;</div>
+        </div>
+
+        <!-- midum boc for nevigation  bar -->
+        <div class="mid">
+            <ul class="nevbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#" class="active">contact us</a></li>
+                <li><a href="#" class="active">fitness calculater</a></li>
+                <li><a href="#" class="active">about</a></li>
+            </ul>
+        </div>
+        <!-- right box for botton -->
+        <div class="right">
+            <button class="btn">
+                call us now
+            </button>
+            <button class="btn">
+                email us
+            </button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h3>join the best gym of delhi now</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your locality">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
